@@ -1,0 +1,32 @@
+<view>
+  <image class="laser" src="/images/2.jpg" mode="aspectFit" ></image>
+  <!-- 控制按钮 -->
+  <view class="laser_container">  
+    <switch class='btn_laser' type='switch'  bindchange='type_switch'></switch>
+    <text>{{type_switch}}</text>
+  </view>
+  <text class="text1">激光控制</text>
+
+  <view class="remote">
+    <view class="row">
+      <button hover-class="hover-class-1" bindtap="turnLeft">停止工作</button>
+    </view>
+    <view class="row">
+      <button hover-class="hover-class-1" bindtap="adjustLeft">舵机向左微调</button>
+      <button hover-class="hover-class-1" bindtap="adjustRight">舵机向右微调</button>
+    </view>
+    <view class="row">
+      <!-- <button bindtap="turnRight">右转</button> -->
+    </view>
+  </view>
+  
+  <!-- 登录弹窗 -->
+  <view wx:if="{{showLoginModal}}" class="modal">
+    <view class="modal-content">
+      <text class="modal-title">登录</text>
+      <input class="username" value="亲爱的loongson用户" disabled />
+      <input class="password" placeholder="请填写产品密钥" password="{{true}}" bindinput="onPasswordInput" />
+      <button class="btn_login" bindtap="onLogin">登录</button>
+    </view>
+  </view>
+</view>

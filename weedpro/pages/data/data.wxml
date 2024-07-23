@@ -1,0 +1,21 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+	<swiper-item>
+		<image mode="widthFix" src="/images/freecompress-3.jpg" />
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="/images/chuangyeimg1.png" />
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="/images/1_xs.jpg" />
+	</swiper-item>
+</swiper>
+<switch class="aivoice" checked="{{voiceBroadcastEnabled}}" bindchange="switchChange">语音播报</switch>
+<text class="title">实时消息监控</text>
+  <view class="message-container">
+    <scroll-view scroll-y="true" style="height: 200px; " >
+      <block wx:for="{{mqttMessages}}" wx:key="*this">
+        <text>{{item}}</text>
+      </block>
+    </scroll-view>
+  </view>
+

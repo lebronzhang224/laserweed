@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pics/image.png</file>
+        <file>pics/Account-Regular.png</file>
+        <file>pics/index.png</file>
+        <file>pics/list-bule.png</file>
+        <file>pics/user.png</file>
+        <file>pics/view.png</file>
+        <file>pics/background.png</file>
+        <file>pics/font_backgrond.png</file>
+        <file>pics/1.jpg</file>
+        <file>pics/2.jpg</file>
+        <file>pics/3.jpg</file>
+    </qresource>
+</RCC>

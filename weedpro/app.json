@@ -1,0 +1,41 @@
+{
+  "pages": [    
+    "pages/data/data",
+    "pages/control/control",
+    "pages/about/about",
+    "pages/logs/logs",
+    "pages/test/test"
+    
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "激光除草设备",
+    "navigationBarBackgroundColor": "#2b4b6b"
+  },
+  "tabBar": {
+    "list":[
+      {
+        "pagePath": "pages/data/data",
+        "text": "数据监控",
+        "iconPath": "/images/index1.png",
+        "selectedIconPath": "/images/index2.png"
+      },
+      {
+        "pagePath": "pages/control/control",
+        "text": "设备操控",
+        "iconPath": "/images/upLoad1.png",
+        "selectedIconPath": "/images/upLoad2.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "/images/admin1.png",
+        "selectedIconPath": "/images/admin2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

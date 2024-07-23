@@ -1,0 +1,5 @@
+<view class="container">
+<text class="intro">团队开发激光除草设备模型，实现了主控端（使用qt作为界面，可以进行数据的查询和导出），微信小程序端以及硬件的联动，能够很好解决实际问题</text>
+<text class="msg">成员：张宇、邹若颜、汪邹成</text>
+<text></text>
+</view>

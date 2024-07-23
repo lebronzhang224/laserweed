@@ -1,0 +1,16 @@
+.container{
+  margin-top: 0%;
+  height: 100%;
+  justify-content: center;
+
+}
+.intro{
+  height: 300px;
+  text-indent: 40px;
+  text-align: left;
+  font-family: cursive;
+  font-size: larger;
+}
+.msg{
+  justify-content: center;
+}
